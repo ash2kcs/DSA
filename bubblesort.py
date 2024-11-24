@@ -7,6 +7,8 @@ def bubble_sort(input):
             if input[j] > input[j+1]:
                 input[j], input[j+1] = input[j+1], input[j]
 
+    return input
+
 
 input = [5,9,3,5,15, 7, 11,2]
 
