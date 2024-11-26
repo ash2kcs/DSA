@@ -2,7 +2,9 @@
 
 def quick_sort(input):
     for i in range(len(input)):
-        pivot = input[0]
+        pivot = input[i]
+        left = input[i+1]
+        right = input[len(input - 1)]
 
     pass
 
